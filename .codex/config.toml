@@ -5,5 +5,5 @@ enabled = true
 default_subagent_reasoning_effort = "high"
 
 [agents.verifier]
-description = "Independent reviewer for implementation, debugging, refactors, configuration changes, tests, and technical decisions. Check the Executor's work for correctness, regressions, missing evidence, and requirement gaps."
+description = "General-purpose independent second agent."
 config_file = "verifier.toml"
