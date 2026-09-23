@@ -1,9 +1,0 @@
-#:schema https://developers.openai.com/codex/config-schema.json
-
-[agents]
-enabled = true
-default_subagent_reasoning_effort = "high"
-
-[agents.verifier]
-description = "General-purpose independent second agent."
-config_file = "verifier.toml"
