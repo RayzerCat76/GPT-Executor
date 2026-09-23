@@ -1,0 +1,9 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+[agents]
+enabled = true
+default_subagent_reasoning_effort = "high"
+
+[agents.verifier]
+description = "Independent reviewer for implementation, debugging, refactors, configuration changes, tests, and technical decisions. Check the Executor's work for correctness, regressions, missing evidence, and requirement gaps."
+config_file = "verifier.toml"
